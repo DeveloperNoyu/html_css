@@ -1,0 +1,17 @@
+.menu-ul {
+    background-color: red;
+    padding : 10px 0;
+}
+
+.menu-ul::after {
+    content: '';
+    display: block;
+    clear : both;
+}
+
+
+.menu-li {
+    float: right;
+
+    margin-right: 20px;
+}
